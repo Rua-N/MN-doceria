@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="430.0" maxWidth="720.0" minHeight="430.0" minWidth="720.0" prefHeight="430.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TelaController">
+   
+   <opaqueInsets>
+        <Insets />
+   </opaqueInsets>
+   <center>
+      <ImageView fitHeight="431.0" fitWidth="729.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../../../../Desktop/mn%20doceria/full-login2.png" />
+         </image>
+      </ImageView>
+   </center>
+   <left>
+      <Pane prefHeight="430.0" prefWidth="0.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="ButAvan" layoutX="140.0" layoutY="315.0" mnemonicParsing="false" onAction="#Login" prefHeight="30.0" prefWidth="70.0" style="-fx-background-color: #AA465E;" text="&gt;" textFill="WHITE">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <TextField fx:id="username" layoutX="60.0" layoutY="150.0" prefHeight="39.0" prefWidth="244.0" promptText="Nome de usuario" style="-fx-alignment: CENTEr; -fx-background-color: WHITE; -fx-border-radius: 20; -fx-background-radius: 20; -fx-border-color: #AA465E; -fx-border-width: 2;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="senha" layoutX="60.0" layoutY="200.0" prefHeight="39.0" prefWidth="244.0" promptText="Senha" style="-fx-background-color: white; -fx-border-radius: 20; -fx-background-radius: 20; -fx-border-color: #AA465E; -fx-border-width: 2; -fx-alignment: center;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="close" layoutX="674.0" layoutY="9.0" mnemonicParsing="false" onAction="#close" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #AA465E;" text="X" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </left>
+</BorderPane>

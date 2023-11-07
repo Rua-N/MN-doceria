@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1024.0" prefWidth="1440.0" style="-fx-background-color: #FCE0EC;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TelaController">
+   <rotationAxis>
+      <Point3D />
+   </rotationAxis>
+   <left>
+      <AnchorPane fx:id="sidebar" prefHeight="906.0" prefWidth="162.0" style="-fx-background-color: #AA465E;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="pedidos" alignment="BASELINE_LEFT" layoutX="22.0" layoutY="161.0" mnemonicParsing="false" style="-fx-background-color: #AA465E;" text="Pedidos" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="60.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Desktop/mn%20doceria/pedido-icon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="grafico" alignment="BASELINE_LEFT" layoutX="28.0" layoutY="260.0" mnemonicParsing="false" onAction="#TrocaDeTelaG" style="-fx-background-color: #AA465E;" text="Gráficos" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="44.0" fitWidth="51.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Desktop/mn%20doceria/Graphs-icon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button alignment="CENTER" layoutX="44.0" layoutY="850.0" mnemonicParsing="false" onAction="#TrocaDeTelaL" style="-fx-background-color: #AA465E;" text="Sair" textFill="WHITE" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="67.0" AnchorPane.topAnchor="850.0">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </left>
+   <top>
+      <AnchorPane prefHeight="110.0" prefWidth="1440.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="126.0" prefWidth="162.0" style="-fx-background-color: #AA465E;">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="184.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Desktop/mn%20doceria/logo-canto.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
