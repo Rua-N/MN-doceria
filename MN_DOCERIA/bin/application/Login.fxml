@@ -20,7 +20,7 @@
    <center>
       <ImageView fitHeight="431.0" fitWidth="729.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
          <image>
-            <Image url="@../../../../Desktop/mn%20doceria/full-login2.png" />
+            <Image url="@imagens/full-login.png" />
          </image>
       </ImageView>
    </center>

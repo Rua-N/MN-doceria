@@ -26,7 +26,7 @@
                <graphic>
                   <ImageView fitHeight="60.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../bin/application/imgs/pedido-icon.png" />
+                        <Image url="@imagens/pedido-icon.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -38,7 +38,7 @@
                <graphic>
                   <ImageView fitHeight="44.0" fitWidth="51.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../bin/application/imgs/Graphs-icon.png" />
+                        <Image url="@imagens/Graphs-icon.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -58,7 +58,7 @@
                <graphic>
                   <ImageView fitHeight="150.0" fitWidth="184.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../bin/application/imgs/logo-canto.png" />
+                        <Image url="@imagens/logo-canto.png" />
                      </image>
                   </ImageView>
                </graphic>

@@ -18,7 +18,7 @@
       <Point3D />
    </rotationAxis>
    <left>
-      <AnchorPane prefHeight="906.0" prefWidth="162.0" style="-fx-background-color: #AA465E;" BorderPane.alignment="CENTER">
+      <AnchorPane layoutX="-51.0" layoutY="-50.0" prefHeight="906.0" prefWidth="162.0" style="-fx-background-color: #AA465E;" BorderPane.alignment="CENTER">
          <children>
             <Button fx:id="pedidos" alignment="BASELINE_LEFT" layoutX="22.0" layoutY="161.0" mnemonicParsing="false" style="-fx-background-color: #AA465E;" text="Pedidos" textFill="WHITE">
                <font>
@@ -27,7 +27,7 @@
                <graphic>
                   <ImageView fitHeight="60.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../bin/application/imgs/pedido-icon.png" />
+                        <Image url="@imagens/pedido-icon.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -39,7 +39,7 @@
                <graphic>
                   <ImageView fitHeight="60.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../bin/application/imgs/Taco-icon.png" />
+                        <Image url="@imagens/Taco-icon.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -65,7 +65,7 @@
                <graphic>
                   <ImageView fitHeight="150.0" fitWidth="184.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../bin/application/imgs/logo-canto.png" />
+                        <Image url="@imagens/logo-canto.png" />
                      </image>
                   </ImageView>
                </graphic>

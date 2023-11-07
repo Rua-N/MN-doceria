@@ -17,6 +17,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 
 
@@ -70,25 +71,34 @@ public class TelaController{
 	}
 	
 	public void TrocaDeTelaG(ActionEvent event) throws IOException  {
-		Rectangle2D screenSize = Screen.getPrimary().getVisualBounds();
+		
+		//Rectangle2D screenSize = Screen.getPrimary().getVisualBounds();
 		root = (BorderPane)FXMLLoader.load(getClass().getResource("graphs.fxml"));
 		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-		scene = new Scene(root,screenSize.getWidth(), screenSize.getHeight());
+		stage.setX(50);
+		stage.setY(15);
+		scene = new Scene(root);
+		//scene = new Scene(root,screenSize.getWidth(), screenSize.getHeight());
 		String css = this.getClass().getResource("application.css").toExternalForm();
 		scene.getStylesheets().add(css);
-		stage.setMaximized(true);
+		//não sei se vai ficar direito em todos os tipos de tela, então vou deixar sem 
+		//stage.setMaximized(true);
 		stage.setScene(scene);
 		stage.show();
 	}
 	
 	public void TrocaDeTelaT(ActionEvent event) throws IOException  {
-		Rectangle2D screenSize = Screen.getPrimary().getVisualBounds();
+		
+		//Rectangle2D screenSize = Screen.getPrimary().getVisualBounds();
 		root = (BorderPane)FXMLLoader.load(getClass().getResource("TACO.fxml"));
 		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-		scene = new Scene(root,screenSize.getWidth(), screenSize.getHeight());
+		stage.setX(50);
+		stage.setY(15);
+		scene = new Scene(root);
+		//scene = new Scene(root,screenSize.getWidth(), screenSize.getHeight());
 		String css = this.getClass().getResource("application.css").toExternalForm();
 		scene.getStylesheets().add(css);
-		stage.setMaximized(true);
+		//stage.setMaximized(true);
 		stage.setScene(scene);
 		stage.show();
 	}
