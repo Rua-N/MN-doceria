@@ -5,7 +5,6 @@ import java.io.IOException;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.geometry.Rectangle2D;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -15,9 +14,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
-import javafx.stage.Screen;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
+
 
 
 
@@ -46,11 +44,9 @@ public class TelaController{
 	public void Login(ActionEvent event) throws IOException {
 		if(username.getText().equals(usuario) && senha.getText().equals(password)){
 			TrocaDeTelaG(event);
-		}if(username.getText().isBlank() == false && senha.getText().isBlank() == false ) {
-			showAlert("Error", "Usuário ou senha inválidos!");
 		} 
 		else {
-			System.out.print("erro");
+			showAlert("Error", "Usuário ou senha inválidos!");
 		} 
 			
 		}
